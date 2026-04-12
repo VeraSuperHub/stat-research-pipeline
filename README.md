@@ -78,7 +78,7 @@ Testing Skills            Analysis Engine                  Pipelines
 | Primary tests    |    | + Tree-based models    |    | + Manuscript assembly      |
 | (Steps 01-03)    |    | + Manuscript fragments |    | + LaTeX / PDF compilation  |
 +------------------+    | (Steps 04-08)          |    | + External AI review       |
-                        +------------------------+    | (Stages 1-7)              |
+                        +------------------------+    | (Stages 1-7)               |
                                                       +----------------------------+
 ```
 
