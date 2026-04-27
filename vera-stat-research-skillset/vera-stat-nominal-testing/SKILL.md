@@ -8,7 +8,7 @@ description: >-
   categorical predictors, or ANOVA/Kruskal-Wallis for continuous predictors)
   with effect sizes. Ends with a recommendation block listing additional
   analyses available. Outputs .R and .py scripts with
-  2 publication-quality plots. Triggered when user has a nominal/unordered
+  2 review-ready plots. Triggered when user has a nominal/unordered
   categorical outcome with 3+ levels and says "nominal outcome,"
   "multi-class," "categorical outcome no order," "unordered categories,"
   "species," "type classification," "which category," "multinomial," or

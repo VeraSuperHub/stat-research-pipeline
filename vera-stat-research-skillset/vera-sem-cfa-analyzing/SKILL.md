@@ -4,7 +4,7 @@ description: >-
   Full CFA skill for measurement-model evaluation. Extends the initial
   CFA fit with reliability, convergent/discriminant validity, alternative-model
   comparison, modification-index review, subgroup invariance testing, and
-  manuscript-ready methods/results. Trigger after vera-sem-cfa-testing or by a
+  review-ready methods/results. Trigger after vera-sem-cfa-testing or by a
   direct request for confirmatory factor analysis or measurement
   validation.
 user-invocable: true

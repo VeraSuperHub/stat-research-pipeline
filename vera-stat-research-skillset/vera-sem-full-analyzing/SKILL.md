@@ -3,7 +3,7 @@ name: vera-sem-full-analyzing
 description: >-
   Full SEM analysis skill. Extends the initial structural model with indirect
   effects, alternative-path comparison, multigroup testing, residual review,
-  and manuscript-ready methods/results. Trigger after vera-sem-full-testing or
+  and review-ready methods/results. Trigger after vera-sem-full-testing or
   by a direct request for SEM.
 user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob

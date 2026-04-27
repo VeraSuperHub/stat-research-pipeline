@@ -6,7 +6,7 @@ description: >-
   proportion tables, class balance check with rare-event warning,
   descriptives by outcome level, chi-square test of independence with
   Cramer's V, Fisher's exact test when cell counts are small, odds ratio
-  with 95% CI, and a mosaic or grouped bar chart. Outputs .R and .py scripts with 2 publication-quality plots.
+  with 95% CI, and a mosaic or grouped bar chart. Outputs .R and .py scripts with 2 review-ready plots.
   Triggered when user has a binary/dichotomous outcome and says "binary
   outcome," "logistic," "survived or died," "yes or no," "pass or fail,"
   "0/1," "classification," "binary DV," or names a binary variable like

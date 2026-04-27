@@ -3,7 +3,7 @@
 # Group: Species (setosa, versicolor, virginica)
 # Covers: PART 3 (additional tests), PART 4 (subgroup/profile),
 #         PART 5 (modeling), PART 6 (cross-method synthesis),
-#         PART 7 (manuscript generation)
+#         PART 7 (review-ready manuscript-section drafting)
 # Prerequisite: Testing workflow (PARTS 0-2) already executed.
 
 # -- PART 0: Setup (repeated for standalone execution) -------------------------
@@ -723,11 +723,11 @@ cat(sprintf(paste0(
   cum_var[n_pca_components] * 100))
 
 # ==============================================================================
-# PART 7: MANUSCRIPT GENERATION (Workflow 08)
+# PART 7: REVIEW-READY MANUSCRIPT-SECTION DRAFTING (Workflow 08)
 # ==============================================================================
 
 cat("\n", strrep("=", 60), "\n")
-cat("PART 7: MANUSCRIPT GENERATION\n")
+cat("PART 7: REVIEW-READY MANUSCRIPT-SECTION DRAFTING\n")
 cat(strrep("=", 60), "\n\n")
 
 # methods.md

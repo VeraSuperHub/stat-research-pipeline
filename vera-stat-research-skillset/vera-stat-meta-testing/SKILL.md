@@ -7,7 +7,7 @@ description: >-
   pooled estimates under both fixed-effects and random-effects models,
   and prediction interval. Ends with a recommendation block listing
   Outputs .R and .py
-  scripts with 1 publication-quality forest plot. Triggered when user
+  scripts with 1 review-ready forest plot. Triggered when user
   says "meta-analysis," "systematic review," "pooled estimate," "combine
   studies," "forest plot," "heterogeneity," "I-squared," "effect size
   synthesis," or "aggregate results across studies." Does not handle

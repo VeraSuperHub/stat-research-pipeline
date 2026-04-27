@@ -8,8 +8,8 @@ description: >-
   Path B respects ordering (proportional odds with Brant test,
   adjacent-category logit, continuation-ratio logit, stereotype model,
   ordinal-aware trees and LightGBM). Cross-path synthesis compares
-  variable importance rankings across both paths. Generates manuscript-ready
-  methods.md and results.md with formatted tables, publication-quality
+  variable importance rankings across both paths. Generates review-ready
+  methods.md and results.md drafts with formatted tables, review-ready
   figures, and references.bib. Applies output variation, code
   and code style variation for natural, non-repetitive output. Triggered after
   vera-stat-ordinal-testing completes, or direct request with
@@ -18,7 +18,7 @@ user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob
 ---
 
-# Ordinal Outcome — Full Analysis & Manuscript Generation
+# Ordinal Outcome — Full Analysis & Review-Ready Manuscript Drafting
 
 Open-source skill. Read `reference/specs/output-variation-protocol.md`
 before every generation — apply all variation layers.

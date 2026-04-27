@@ -3,7 +3,7 @@
 # Group: species (setosa, versicolor, virginica)
 # Covers: PART 3 (additional tests), PART 4 (subgroup/profile),
 #         PART 5 (modeling), PART 6 (cross-method synthesis),
-#         PART 7 (manuscript generation)
+#         PART 7 (review-ready manuscript-section drafting)
 # Prerequisite: Testing workflow (PARTS 0-2) already executed.
 
 # -- PART 0: Setup & Data Loading (repeated for standalone execution) ----------
@@ -1116,11 +1116,11 @@ if line:
 
 
 # ==============================================================================
-# PART 7: MANUSCRIPT GENERATION (Workflow 08)
+# PART 7: REVIEW-READY MANUSCRIPT-SECTION DRAFTING (Workflow 08)
 # ==============================================================================
 
 print("\n" + "=" * 60)
-print("PART 7: MANUSCRIPT GENERATION")
+print("PART 7: REVIEW-READY MANUSCRIPT-SECTION DRAFTING")
 print("=" * 60)
 
 # -- 7A: methods.md ------------------------------------------------------------

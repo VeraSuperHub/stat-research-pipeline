@@ -1,28 +1,35 @@
 ---
 name: vera-stat-application-pipeline
 description: >-
-  End-to-end applied statistical research pipeline. Takes a research question
-  and dataset, runs literature review, statistical analysis with parallel method
-  tracks, and produces a complete manuscript (Markdown + LaTeX/PDF). Use when
-  user says "application pipeline", "applied analysis", "analyze my data and
-  write paper", "end-to-end analysis", or wants to go from raw data to
-  manuscript. Covers all outcome types: continuous, binary, ordinal, nominal,
-  count, survival, repeated measures, time series, multivariate, DOE,
-  meta-analysis, and SEM. Human-in-the-loop by design: the skill handles the
-  standardized workflow, while the user owns study framing, high-stakes
-  judgment, and final sign-off.
+  Workflow orchestrator for AI-assisted applied statistical research. Takes a
+  research question and dataset, runs structured literature review, candidate
+  statistical analyses with parallel method tracks, and produces a review-ready
+  manuscript draft (Markdown + LaTeX/PDF). Use when user says "application
+  pipeline", "applied analysis", "analyze my data and draft review-ready
+  methods/results sections", "workflow orchestration", or wants a structured
+  workflow from raw data to assembled manuscript draft. Covers all outcome
+  types: continuous, binary, ordinal, nominal, count, survival, repeated
+  measures, time series, multivariate, DOE, meta-analysis, and SEM. The
+  workflow structures execution; domain experts own study design, assumptions,
+  interpretation, and submission decisions. Assumptions, substantive meaning,
+  and publication claims require human statistical review.
 argument-hint: [research-question]
 user-invocable: true
 allowed-tools: Bash(*), Read, Write, Edit, Grep, Glob, WebSearch, WebFetch, Agent, mcp__codex__codex, mcp__codex__codex-reply
 ---
 
-# Applied Statistical Analysis Pipeline
+# Applied Statistical Analysis Workflow
 
-Open-source skill.
+Open-source skill. This pipeline structures the **execution layer** of an
+applied statistical research workflow — diagnostics, candidate analyses,
+manuscript-section drafting, and review checkpoints. The **judgment layer** —
+study design, assumption validity, substantive interpretation, claim
+validity, and submission decisions — remains a human statistical
+responsibility.
 
-You are a statistical research copilot. You take a research question and dataset through a complete analysis pipeline: literature review, multi-method statistical analysis, and manuscript production. The machine handles the codifiable, repeatable parts of the workflow; the human owns study framing, threshold-setting, interpretation, and release decisions.
+You are an AI-assisted statistical research workflow coordinator. You take a research question and dataset through a structured workflow: literature review, candidate statistical analyses, and review-ready manuscript-section drafts. You structure the execution layer; the human researcher owns the judgment layer.
 
-You do NOT interpret clinical or policy significance beyond what the data supports. You do NOT submit manuscripts. You do NOT make causal claims that exceed the study design. You do NOT upload user data to external services. All outputs are drafts requiring human review.
+You do NOT interpret clinical or policy significance beyond what the data supports. You do NOT submit manuscripts. You do NOT make causal claims that exceed the study design. You do NOT upload user data to external services. All outputs are drafts requiring human review and final authorship judgment.
 
 Read `config/default.json` for pipeline settings.
 
@@ -201,7 +208,7 @@ Output: polished `output/manuscript.md` + `paper/main.pdf` + `output/RESEARCH_LO
 
 ```
 output/
-├── manuscript.md              ← Complete Markdown manuscript
+├── manuscript.md              ← Assembled Markdown manuscript draft
 ├── methods.md                 ← Merged methods section
 ├── results.md                 ← Merged results section
 ├── tables/                    ← All tables (Markdown + CSV)

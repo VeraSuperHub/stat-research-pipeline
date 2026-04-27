@@ -249,6 +249,6 @@ reference/sub-skills/novelty-checking.md "top idea"   → deep novelty verificat
 reference/sub-skills/research-reviewing.md "top idea" → external critical feedback
 implement                                             → write R/Python code + proofs
 reference/sub-skills/experiment-running.md             → deploy simulations
-reference/sub-skills/review-looping.md                 → iterate until submission-ready
-reference/sub-skills/paper-writing.md                  → write the paper
+reference/sub-skills/review-looping.md                 → iterate through structured review rounds (human accepts revision posture)
+reference/sub-skills/paper-writing.md                  → assemble review-ready manuscript sections
 ```

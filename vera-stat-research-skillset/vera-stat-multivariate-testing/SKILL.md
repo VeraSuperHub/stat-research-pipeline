@@ -7,7 +7,7 @@ description: >-
   multivariate group comparison (Hotelling's T-squared for 2 groups or one-way
   MANOVA with all four test statistics for 3+ groups) with partial eta-squared
   per DV and univariate follow-up ANOVAs. Ends with a recommendation block.
-  Outputs .R and .py scripts with publication-quality plots. Trigger when user
+  Outputs .R and .py scripts with review-ready plots. Trigger when user
   has multiple continuous outcomes and says "multiple outcomes," "multivariate,"
   "MANOVA," "multiple dependent variables," "Hotelling," "canonical correlation,"
   "profile analysis," or names 2+ continuous variables as outcomes. Does not

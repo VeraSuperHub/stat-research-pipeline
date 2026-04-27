@@ -10,7 +10,7 @@ description: >-
   incidence rate ratios and nonparametric confirmation. Detects whether
   data are raw event counts or event rates with exposure/offset. Ends
   with a recommendation block listing additional analyses available via
-  the full analysis pipeline. Outputs .R and .py scripts with 2 publication-quality
+  the full analysis pipeline. Outputs .R and .py scripts with 2 review-ready
   plots. Triggered when user has a count/frequency outcome and says
   "count outcome," "number of events," "frequency," "how many,"
   "Poisson," "incidents," "occurrences," "integer outcome floor at zero,"

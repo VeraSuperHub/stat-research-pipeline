@@ -7,15 +7,15 @@ description: >-
   analysis (leave-one-out, influence diagnostics, cumulative meta-analysis),
   subgroup analysis with Q_between, meta-regression with bubble plots,
   advanced modeling (REML, Knapp-Hartung, Bayesian, three-level), and
-  model comparison. Generates manuscript-ready methods.md and results.md
-  with formatted tables, publication-quality figures, and references.bib.
+  model comparison. Generates review-ready methods.md and results.md drafts
+  with formatted tables, review-ready figures, and references.bib.
   Applies output variation and code style variation for natural, non-repetitive output. Triggered after
   vera-stat-meta-testing completes, or direct request with meta-analysis data.
 user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob
 ---
 
-# Meta-Analysis — Full Analysis & Manuscript Generation
+# Meta-Analysis — Full Analysis & Review-Ready Manuscript Drafting
 
 Open-source skill. Read `reference/specs/output-variation-protocol.md`
 before every generation — apply all variation layers.

@@ -8,15 +8,15 @@ description: >-
   and interaction tests, full modeling (Poisson, Negative Binomial,
   Zero-Inflated Poisson, Zero-Inflated Negative Binomial, Hurdle,
   tree-based exploratory), and model comparison with unified variable
-  importance. Generates manuscript-ready methods.md and results.md with
-  formatted tables, publication-quality figures, and references.bib.
+  importance. Generates review-ready methods.md and results.md drafts with
+  formatted tables, review-ready figures, and references.bib.
   Applies output variation and code style variation for natural, non-repetitive output. Triggered after
   vera-stat-count-testing completes, or direct request with a count outcome variable.
 user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob
 ---
 
-# Count Outcome — Full Analysis & Manuscript Generation
+# Count Outcome — Full Analysis & Review-Ready Manuscript Drafting
 
 Open-source skill. Read `reference/specs/output-variation-protocol.md`
 before every generation — apply all variation layers.

@@ -478,7 +478,7 @@ print("Quantile regression adds distributional insight about the dose-response r
 print("Tree-based models confirm the variable-importance ordering but remain exploratory.")
 
 print("\n" + "=" * 60)
-print("PART 5: MANUSCRIPT GENERATION")
+print("PART 5: REVIEW-READY MANUSCRIPT-SECTION DRAFTING")
 print("=" * 60, "\n")
 
 # tables/ and figures/ already created at top of script under OUT_DIR

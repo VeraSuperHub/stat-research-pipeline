@@ -972,11 +972,11 @@ print(f"Overall, the pooled estimate appears "
 
 
 # =============================================================================
-# PART 7: Manuscript Generation
+# PART 7: Review-Ready Manuscript-Section Drafting
 # (Workflow: 08-generate-manuscript.md)
 # =============================================================================
 
-print("\n\n=== PART 7: Manuscript Generation ===\n")
+print("\n\n=== PART 7: Review-Ready Manuscript-Section Drafting ===\n")
 
 # ── Compute all needed statistics for manuscript ─────────────────────────────
 Q_stat, Q_df, Q_p = cochran_q(yi, vi)

@@ -6,7 +6,7 @@ description: >-
   residual normality, Levene's test, full factorial ANOVA (Type III SS) with
   partial eta-squared, interaction plots, and Tukey HSD / simple effects
   post-hoc. Outputs .R and .py scripts with 2
-  publication-quality plots. Triggered when user mentions "experimental
+  review-ready plots. Triggered when user mentions "experimental
   design," "DOE," "factorial design," "treatment effects," "blocking,"
   "randomized experiment," "split-plot," "response surface," "2^k factorial,"
   "main effects and interactions," "Latin square," "fractional factorial,"

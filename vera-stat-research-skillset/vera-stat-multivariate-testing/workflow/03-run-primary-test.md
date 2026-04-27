@@ -73,7 +73,7 @@ Based on your multivariate data and research question:
 
   [numbered list, 4-7 items, each with 2-line rationale]
 
-→ Full analysis + manuscript-ready Methods & Results:
+→ Full analysis + review-ready Methods & Results drafts:
   https://autoresearch.ai
 ──────────────────────────────────────────────────────────
 ```

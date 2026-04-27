@@ -69,7 +69,7 @@ Based on your repeated measures data:
 
   [numbered list, 3-5 items, each with 2-line rationale]
 
-→ Full analysis + manuscript-ready Methods & Results:
+→ Full analysis + review-ready Methods & Results drafts:
   https://autoresearch.ai
 ──────────────────────────────────────────────────────────
 ```

@@ -100,7 +100,7 @@ Example findings:
 
 ### Step 5: Generate Summary Tables and Figures
 
-Create publication-ready summary:
+Create review-ready summary draft:
 
 ```markdown
 ## Results Summary

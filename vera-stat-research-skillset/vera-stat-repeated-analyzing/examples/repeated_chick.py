@@ -2,7 +2,7 @@
 # Repeated Measures Full Analysis — ChickWeight Dataset
 # Covers: PART 3 (Additional Tests), PART 4 (Subgroup Analysis),
 #         PART 5 (Models), PART 6 (Cross-Method Synthesis),
-#         PART 7 (Manuscript Generation)
+#         PART 7 (Review-Ready Manuscript-Section Drafting)
 # Workflow steps: 04 through 08
 #
 # Dataset: ChickWeight (via statsmodels)
@@ -1126,11 +1126,11 @@ print("as analytic lenses providing complementary rather than competing insights
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# PART 7: Manuscript Generation (08-generate-manuscript.md)
+# PART 7: Review-Ready Manuscript-Section Drafting (08-generate-manuscript.md)
 # ═══════════════════════════════════════════════════════════════════════════════
 
 print("=" * 65)
-print("  PART 7: Manuscript Generation")
+print("  PART 7: Review-Ready Manuscript-Section Drafting")
 print("=" * 65)
 
 # --------------------------------------------------------------------------

@@ -9,15 +9,15 @@ description: >-
   (logistic regression with OR and 95% CI, Hosmer-Lemeshow GOF, pseudo-R2,
   ROC curve with AUC, classification table, tree-based classification with
   CART/RF/GBM), and cross-method variable importance comparison on a 0-100
-  unified scale. Generates manuscript-ready methods.md and results.md with
-  formatted tables, publication-quality figures, and references.bib.
+  unified scale. Generates review-ready methods.md and results.md drafts with
+  formatted tables, review-ready figures, and references.bib.
   Applies output variation and code style variation for natural, non-repetitive output. Triggered after
   vera-stat-binary-testing completes, or direct request with a binary outcome variable.
 user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob
 ---
 
-# Binary Outcome --- Full Analysis & Manuscript Generation
+# Binary Outcome --- Full Analysis & Review-Ready Manuscript Drafting
 
 Open-source skill. Read `reference/specs/output-variation-protocol.md`
 before every generation --- apply all variation layers.

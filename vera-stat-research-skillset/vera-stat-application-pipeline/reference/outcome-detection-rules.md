@@ -129,7 +129,7 @@ Parse the research question for analytical intent keywords.
 
 | Level | Condition | Action |
 |-------|-----------|--------|
-| **HIGH** | All 3 signals agree, OR Signal 1 is unambiguous (e.g., exactly 2 levels = binary) | Auto-proceed after timeout |
+| **HIGH** | All 3 signals agree, OR Signal 1 is unambiguous (e.g., exactly 2 levels = binary) | Log default routing suggestion after timeout; user may correct before final interpretation |
 | **MEDIUM** | 2 of 3 signals agree, OR Signal 1 clear but Signals 2-3 suggest alternative | Present detection, ask to confirm |
 | **LOW** | Signals conflict, OR outcome could be multiple types (e.g., 5-value numeric = ordinal or continuous?) | Present top 2-3 candidates, require user selection |
 

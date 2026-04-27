@@ -9,15 +9,15 @@ description: >-
   interaction tests, full modeling (multinomial logistic regression with RRR,
   LDA, CART, Random Forest, LightGBM multi-class), confusion matrices,
   unified variable importance (0-100), and cross-method insight synthesis.
-  Generates manuscript-ready methods.md and results.md with formatted
-  tables, publication-quality figures, and references.bib. Applies output
+  Generates review-ready methods.md and results.md drafts with formatted
+  tables, review-ready figures, and references.bib. Applies output
   variation and code style variation for natural, non-repetitive output. Triggered after
   vera-stat-nominal-testing completes, or direct request with a nominal/unordered multi-class outcome variable.
 user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob
 ---
 
-# Nominal Outcome — Full Analysis & Manuscript Generation
+# Nominal Outcome — Full Analysis & Review-Ready Manuscript Drafting
 
 Open-source skill. Read `reference/specs/output-variation-protocol.md`
 before every generation — apply all variation layers.

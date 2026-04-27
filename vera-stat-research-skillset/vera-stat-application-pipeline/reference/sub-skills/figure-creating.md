@@ -2,7 +2,7 @@
 
 # Paper Figure: Statistics Publication Figures
 
-Generate publication-quality figures from: **$ARGUMENTS**
+Generate review-ready figures from: **$ARGUMENTS**
 
 ## Auto-Generation Scope
 

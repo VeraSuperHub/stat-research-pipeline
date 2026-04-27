@@ -7,7 +7,7 @@ description: >-
   log-rank test for group comparison with median survival times and landmark
   survival rates, and hazard ratio preview from univariate Cox regression.
   Ends with a recommendation block listing additional analyses available via
-  the full analysis pipeline. Outputs .R and .py scripts with publication-quality plots.
+  the full analysis pipeline. Outputs .R and .py scripts with review-ready plots.
   Triggered when user has a survival or time-to-event outcome and says
   "survival outcome," "time to event," "right-censored," "censored,"
   "Kaplan-Meier," "hazard," "death," "failure," "duration," "event time,"

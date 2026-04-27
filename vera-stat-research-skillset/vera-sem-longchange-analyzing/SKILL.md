@@ -4,7 +4,7 @@ description: >-
   Full longitudinal SEM skill for latent growth and change models.
   Extends the initial fit with nonlinear trajectories, latent-basis and
   change-score variants, subgroup comparisons, parallel-process models when
-  available, and manuscript-ready output. Trigger after
+  available, and review-ready output. Trigger after
   vera-sem-longchange-testing or by a direct request for longitudinal SEM.
 user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob

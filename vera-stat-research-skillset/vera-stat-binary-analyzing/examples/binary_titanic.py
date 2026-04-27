@@ -560,7 +560,7 @@ print("Saved: output/tables/comparison_table.csv")
 # ── PART 7: Manuscript Output ────────────────────────────────────────────────
 
 print("\n" + "=" * 62)
-print("PART 7: MANUSCRIPT GENERATION")
+print("PART 7: REVIEW-READY MANUSCRIPT-SECTION DRAFTING")
 print("=" * 62 + "\n")
 
 # Methods section

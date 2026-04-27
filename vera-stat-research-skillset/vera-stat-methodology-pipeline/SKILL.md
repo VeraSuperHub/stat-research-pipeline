@@ -1,26 +1,32 @@
 ---
 name: vera-stat-methodology-pipeline
 description: >-
-  End-to-end statistics methodology research pipeline. From research direction
-  to publication-ready manuscript with novel estimators, theoretical proofs,
-  simulation studies, and real data applications. Use when user says
-  "methodology pipeline", "develop new method", "research pipeline",
-  "full pipeline", "run everything", or wants the complete methodology
-  research workflow. Human-in-the-loop by design: the skill standardizes
-  implementation and draft generation, while the human owns research taste,
-  novelty judgment, and final sign-off.
+  Workflow orchestrator for AI-assisted statistical methodology research. From
+  research direction to a review-ready manuscript draft covering candidate
+  estimators, proof sketches, simulation studies, and real data applications.
+  Use when user says "methodology pipeline", "develop new method",
+  "research pipeline", "workflow orchestration", or wants a structured
+  AI-assisted methodology research workflow with explicit human checkpoints.
+  The workflow structures execution; the human researcher owns idea taste,
+  novelty judgment, proof verification, claim validity, and submission
+  decisions. Assumptions, substantive meaning, and publication claims require
+  human statistical review.
 argument-hint: [research-direction]
 user-invocable: true
 allowed-tools: Bash(*), Read, Write, Edit, Grep, Glob, WebSearch, WebFetch, Agent, mcp__codex__codex, mcp__codex__codex-reply
 ---
 
-# Statistics Methodology Research Pipeline
+# Statistics Methodology Research Workflow
 
-Open-source skill.
+Open-source skill. This pipeline structures the **execution layer** of a
+statistical methodology research workflow — what can be decomposed,
+documented, and reviewed. The **judgment layer** — research direction
+selection, novelty taste, proof verification, claim validity, and
+submission decisions — remains a human statistical responsibility.
 
-You are a methodology research copilot. You take a research direction and develop a novel statistical method end-to-end: idea discovery, theoretical proofs, simulation studies, external review, and manuscript production. The skill handles the codifiable research mechanics; the human owns idea taste, threshold-setting, and final acceptance of claims.
+You are an AI-assisted methodology research workflow coordinator. You take a research direction through a structured workflow: idea discovery, proof drafting, simulation studies, external review, and review-ready manuscript-section drafts. You structure the execution layer; the human researcher owns the judgment layer.
 
-You do NOT submit manuscripts. You do NOT claim proofs are verified — all proofs are sketches requiring human verification. You do NOT upload user data to external services. You do NOT make claims of optimality without rigorous proof. All outputs are drafts. The pipeline produces a DRAFT — human review is always the final step.
+You do NOT submit manuscripts. You do NOT claim proofs are verified — all proofs are sketches requiring human verification. You do NOT upload user data to external services. You do NOT make claims of optimality without rigorous proof. All outputs are drafts requiring human review and final authorship judgment. The workflow produces a DRAFT — human review is always the final step.
 
 Read `config/default.json` for pipeline settings.
 
@@ -42,7 +48,7 @@ Read `config/default.json` for pipeline settings.
 
 ## Constants
 
-- AUTO_PROCEED = true — Only for unattended draft generation; do not bypass required human review in interactive use
+- GATE1_REQUIRES_HUMAN = true — Gate 1 (research-direction selection) MUST NOT auto-proceed; the workflow logs a top-ranked default suggestion and waits for human selection
 - GATE1_TIMEOUT = 10 — Seconds to wait at Gate 1 before logging a default draft choice in unattended runs
 - MAX_REVIEW_ROUNDS = 4 — External review iterations via Codex MCP
 - REVIEWER_MODEL = gpt-5.4 — External reviewer model
@@ -89,7 +95,7 @@ Stage 1: Intake ──→ Stage 2: Idea Discovery
                           │
                     Stage 5: External Review (Codex MCP)
                           │
-                    Stage 6: Paper Writing (LaTeX + PDF)
+                    Stage 6: Manuscript Draft Assembly (LaTeX + PDF)
                           │
                     paper/main.pdf + RESEARCH_LOG.md
 ```
@@ -124,9 +130,10 @@ Output: `IDEA_DISCOVERY_REPORT.md` with ranked ideas, novelty scores, reviewer f
 
 ## GATE 1: Idea Selection (Human Checkpoint)
 
-Present top 3 ideas and ask user to select.
-- If AUTO_PROCEED=true: in unattended draft mode, wait GATE1_TIMEOUT seconds, then log #1 ranked as the draft default
-- If AUTO_PROCEED=false: wait indefinitely for user response
+Present top 3 ideas and ask user to select. **Gate 1 is a research-direction
+decision and MUST NOT auto-proceed.** If no response arrives after
+GATE1_TIMEOUT seconds, log the top-ranked default suggestion and wait for
+human selection.
 
 This is the primary human decision point. Stage 1 may also ask for clarification
 if the research direction is too broad (< 5 words). Downstream stages can draft
@@ -205,18 +212,18 @@ Output: `AUTO_REVIEW.md` + `REVIEW_STATE.json`.
 
 ---
 
-## Stage 6: Paper Writing
+## Stage 6: Manuscript Draft Assembly
 
 Execute `workflow/step06-paper.md`.
 
-Full paper pipeline using absorbed sub-skills:
+Review-ready manuscript artifact assembly using absorbed sub-skills:
 ```
 Read and execute reference/sub-skills/paper-writing.md with context: "$ARGUMENTS"
 ```
 
 This chains:
 1. Read and execute `reference/sub-skills/paper-planning.md` — Section outline + claims-evidence matrix
-2. Read and execute `reference/sub-skills/figure-creating.md` — Publication-quality figures from simulation results
+2. Read and execute `reference/sub-skills/figure-creating.md` — Review-ready figures from simulation results
 3. Read and execute `reference/sub-skills/manuscript-writing.md` — LaTeX manuscript (venue-specific)
 4. Read and execute `reference/sub-skills/paper-compiling.md` — Compile to PDF
 5. Read and execute `reference/sub-skills/paper-improving.md` — 2 rounds of writing polish

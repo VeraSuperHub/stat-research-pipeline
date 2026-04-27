@@ -1,8 +1,8 @@
 <!-- Absorbed from skills/auto-review-loop/SKILL.md -->
 
-# Auto Review Loop: Autonomous Statistics Research Improvement
+# Structured Statistics Review Loop
 
-Autonomously iterate: review → implement fixes → re-review, until the external reviewer gives a positive assessment or MAX_ROUNDS is reached.
+Iterate through documented review and revision passes — review → draft fix → re-review — surfacing reviewer feedback to the human author for decision-making at each round, until the human accepts the revision posture or MAX_ROUNDS is reached. The loop produces draft revisions; substantive interpretation and final claim acceptance remain human statistical judgments.
 
 ## Context: $ARGUMENTS
 
@@ -62,7 +62,7 @@ Send comprehensive context to the external reviewer:
 mcp__codex__codex:
   config: {"model_reasoning_effort": "xhigh"}
   prompt: |
-    [Round N/MAX_ROUNDS of autonomous review loop]
+    [Round N/MAX_ROUNDS of structured review loop]
 
     [Full research context: theoretical claims, methodology, simulation results, real data analysis, known weaknesses]
     [Changes since last round, if any]

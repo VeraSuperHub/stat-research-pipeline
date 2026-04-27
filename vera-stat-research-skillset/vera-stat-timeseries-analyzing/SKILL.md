@@ -8,14 +8,14 @@ description: >-
   regime detection, full classical model suite (ARIMA, SARIMA, ETS,
   GARCH, VAR, spectral, regression with ARIMA errors), ML-based
   forecasting (RF + LightGBM on lagged features), and cross-method
-  forecast comparison. Generates manuscript-ready methods.md and
-  results.md with formatted tables, publication-quality figures, and
+  forecast comparison. Generates review-ready methods.md and
+  results.md with formatted tables, review-ready figures, and
   references.bib. Applies output variation and code style variation for natural, non-repetitive output. Triggered after vera-stat-timeseries-testing completes, or direct request with time series data.
 user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob
 ---
 
-# Time Series — Full Analysis & Manuscript Generation
+# Time Series — Full Analysis & Review-Ready Manuscript Drafting
 
 Open-source skill. Read `reference/specs/output-variation-protocol.md`
 before every generation — apply all variation layers.

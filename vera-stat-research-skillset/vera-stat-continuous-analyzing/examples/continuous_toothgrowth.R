@@ -430,7 +430,7 @@ cat("Quantile regression adds distributional insight about the dose-response rel
 cat("Tree-based models confirm the variable-importance ordering but remain exploratory.\n")
 
 cat("\n", strrep("=", 60), "\n")
-cat("PART 5: MANUSCRIPT GENERATION\n")
+cat("PART 5: REVIEW-READY MANUSCRIPT-SECTION DRAFTING\n")
 cat(strrep("=", 60), "\n\n")
 
 # tables/ and figures/ created at top of script under out_dir

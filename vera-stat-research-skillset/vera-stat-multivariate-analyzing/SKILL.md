@@ -9,8 +9,8 @@ description: >-
   (parallelism, equal levels, flatness), canonical correlation analysis,
   PCA for dimension reduction, multivariate multiple regression, and
   tree-based importance comparison across DVs. Synthesizes insights across
-  methods and generates manuscript-ready methods.md and results.md with
-  formatted tables, publication-quality figures, and references.bib.
+  methods and generates review-ready methods.md and results.md drafts with
+  formatted tables, review-ready figures, and references.bib.
   Applies output variation and code style variation for natural, non-repetitive output. Triggered after
   vera-stat-multivariate-testing completes, or direct request with
   multiple continuous outcome variables.
@@ -18,7 +18,7 @@ user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob
 ---
 
-# Multivariate Outcome — Full Analysis & Manuscript Generation
+# Multivariate Outcome — Full Analysis & Review-Ready Manuscript Drafting
 
 Open-source skill. Read `reference/specs/output-variation-protocol.md`
 before every generation — apply all variation layers.

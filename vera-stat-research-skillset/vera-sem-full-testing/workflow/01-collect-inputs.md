@@ -28,7 +28,7 @@ Ask for anything missing. Do not proceed until all required inputs are collected
 6. **Mediator variables** — label which latent variables serve as mediators
 7. **Grouping variable** — if multigroup SEM may follow
 8. **Covariates/controls** — observed exogenous variables in the structural part
-9. **Goal** — explanation, prediction, or manuscript-ready inference
+9. **Goal** — explanation, prediction, or review-ready inference
 10. **Missing data pattern** — proportion and assumed mechanism (MCAR/MAR)
 
 ## Validation Checkpoint

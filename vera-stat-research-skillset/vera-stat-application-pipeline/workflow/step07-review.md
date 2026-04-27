@@ -201,7 +201,7 @@ Round 1: {score}/10 → Round 2: {score}/10 → ... → Final: {score}/10
 - PDF pages: {N}
 
 ## Deliverables
-- `output/manuscript.md` — Complete Markdown manuscript
+- `output/manuscript.md` — Assembled Markdown manuscript draft
 - `paper/main.pdf` — Compiled LaTeX PDF
 - `paper/main.tex` — LaTeX source
 - `output/code.R` — Reproducible R code
@@ -253,12 +253,14 @@ Round 1: {score}/10 → Round 2: {score}/10 → ... → Final: {score}/10
 
 ---
 
-## Pipeline Complete
+## Workflow Complete
 
-Final deliverables:
-- `output/manuscript.md` — Polished Markdown manuscript
-- `paper/main.pdf` — Publication-ready LaTeX PDF
+Final deliverables (all draft artifacts requiring human statistical review and final authorship judgment):
+- `output/manuscript.md` — Assembled Markdown manuscript draft
+- `paper/main.pdf` — Review-ready LaTeX PDF artifact
 - `paper/main.tex` + `paper/sections/*.tex` — LaTeX source files
 - `output/code.R` + `output/code.py` — Reproducible analysis code
 - `AUTO_REVIEW.md` — Full external review history (project root)
-- `output/RESEARCH_LOG.md` — Pipeline execution trace + author checklist
+- `output/RESEARCH_LOG.md` — Workflow execution trace + author checklist
+
+> Substantive interpretation, assumption validity, and submission decisions remain a human statistical judgment.

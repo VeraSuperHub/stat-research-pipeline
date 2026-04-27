@@ -9,15 +9,15 @@ description: >-
   intercept, random slope, growth curve), GEE with multiple correlation
   structures, tree-based exploratory analysis on subject-level features,
   and model comparison with unified variable importance (0-100). Generates
-  manuscript-ready methods.md and results.md with formatted tables,
-  publication-quality figures, and references.bib. Applies output
+  review-ready methods.md and results.md drafts with formatted tables,
+  review-ready figures, and references.bib. Applies output
   variation and code style variation for natural, non-repetitive output. Triggered after
   vera-stat-repeated-testing completes, or direct request with a repeated measures continuous outcome variable.
 user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob
 ---
 
-# Repeated Measures Outcome — Full Analysis & Manuscript Generation
+# Repeated Measures Outcome — Full Analysis & Review-Ready Manuscript Drafting
 
 Open-source skill. Read `reference/specs/output-variation-protocol.md`
 before every generation — apply all variation layers.

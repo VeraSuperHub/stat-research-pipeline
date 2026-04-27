@@ -8,7 +8,7 @@ description: >-
   Cox, recurring event models (Andersen-Gill, PWP, frailty), Accelerated Failure
   Time models (Weibull, log-normal, log-logistic), Random Survival Forest, and
   gradient boosting survival. Produces unified variable importance (0-100 scale),
-  manuscript-ready methods.md and results.md with formatted tables, publication
+  review-ready methods.md and results.md drafts with formatted tables, publication
   figures, and references.bib. Applies output variation and code style variation for natural, non-repetitive output.
   Triggered after vera-stat-survival-testing or direct
   request with a right-censored survival outcome.
@@ -16,7 +16,7 @@ user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob
 ---
 
-# Survival Outcome — Full Analysis & Manuscript Generation
+# Survival Outcome — Full Analysis & Review-Ready Manuscript Drafting
 
 Open-source skill. Read `reference/specs/output-variation-protocol.md`
 before every generation — apply all variation layers.

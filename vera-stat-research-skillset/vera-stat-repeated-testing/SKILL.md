@@ -8,7 +8,7 @@ description: >-
   ANOVA for 3+ time points in one group, or mixed ANOVA (time x group) for 3+
   time points with 2+ groups, including Mauchly sphericity and Greenhouse-Geisser
   correction. Ends with a recommendation block. Outputs .R and .py scripts with
-  publication-quality plots. Trigger when user has a continuous outcome measured
+  review-ready plots. Trigger when user has a continuous outcome measured
   on the same subjects over time and says "repeated measures," "longitudinal,"
   "within-subjects," "pre-post," "paired," "panel data," "growth curve,"
   "multilevel," "mixed model," or "correlated observations." Does not handle

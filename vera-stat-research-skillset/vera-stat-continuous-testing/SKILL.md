@@ -7,7 +7,7 @@ description: >-
   for 2 groups or ANOVA with Tukey HSD for 3+ groups) with effect sizes and
   nonparametric confirmation. Ends with a recommendation block listing
   Outputs .R and .py scripts
-  with 2 publication-quality plots. Triggered when user has a
+  with 2 review-ready plots. Triggered when user has a
   continuous/numeric outcome and says "analyze continuous outcome," "my DV is
   numeric," "compare group means," or names a continuous variable like
   weight, score, income, time, cost, mpg, blood pressure. Does not handle

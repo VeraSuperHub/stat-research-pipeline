@@ -68,7 +68,7 @@ Compile everything into a final `IDEA_DISCOVERY_REPORT.md`:
 - [ ] Implement the chosen idea (write R/Python code + proofs)
 - [ ] Run full simulation study: read and execute reference/sub-skills/experiment-running.md
 - [ ] Iterate with review: read and execute reference/sub-skills/review-looping.md
-- [ ] Write the paper: read and execute reference/sub-skills/paper-writing.md
+- [ ] Assemble review-ready manuscript sections: read and execute reference/sub-skills/paper-writing.md
 ```
 
 ## Key Rules

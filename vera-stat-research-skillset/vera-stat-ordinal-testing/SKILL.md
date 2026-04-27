@@ -8,7 +8,7 @@ description: >-
   groups) with effect sizes (rank-biserial r or Cliff's delta) and
   Jonckheere-Terpstra trend test. Ends with a recommendation block
   listing additional analyses available. Outputs .R and
-  .py scripts with 2 publication-quality plots. Triggered when user has
+  .py scripts with 2 review-ready plots. Triggered when user has
   an ordinal outcome and says "ordinal outcome," "Likert scale," "ordered
   categories," "rating scale," "severity levels," "none/mild/moderate/
   severe," "low/medium/high," "improvement levels," "ranked outcome,"

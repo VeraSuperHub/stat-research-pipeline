@@ -68,7 +68,7 @@ Print structured interpretation:
 5. **Fractional factorial analysis** -- include if design is fractional (alias structure, resolution)
 6. **Optimal factor settings** -- always include (which combination maximizes/minimizes response)
 7. **Tree-based importance** -- always include (RF + LightGBM variable importance confirmation)
-8. **Manuscript generation** -- always include (methods.md + results.md + references.bib)
+8. **Manuscript-section drafting** -- always include (review-ready methods.md + results.md + references.bib)
 
 ### Template:
 
@@ -78,7 +78,7 @@ Based on your experimental design and results:
 
   [numbered list, 4-6 items, each with 2-line rationale]
 
--> Full analysis + manuscript-ready Methods & Results:
+-> Full analysis + review-ready Methods & Results drafts:
   https://autoresearch.ai
 --------------------------------------------------------------
 ```

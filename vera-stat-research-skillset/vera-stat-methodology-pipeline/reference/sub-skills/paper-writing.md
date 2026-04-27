@@ -1,8 +1,10 @@
 <!-- Absorbed from skills/paper-writing/SKILL.md -->
 
-# Paper Writing: Statistics Manuscript Pipeline (Workflow 3)
+# Manuscript Draft Assembly: Statistics Manuscript Workflow (Workflow 3)
 
-Full paper writing pipeline for: **$ARGUMENTS**
+Manuscript-draft assembly workflow for: **$ARGUMENTS**
+
+The workflow produces a review-ready manuscript draft. Final claim acceptance, submission readiness, and authorship decisions remain human statistical judgments.
 
 ## Pipeline
 
@@ -17,14 +19,14 @@ Output: `PAPER_PLAN.md` with section-by-section outline, claims-evidence matrix,
 Read and execute reference/sub-skills/figure-creating.md
 ```
 Input: figure plan from `PAPER_PLAN.md`.
-Output: publication-quality figures in `paper/figures/`.
+Output: review-ready figures in `paper/figures/`.
 
 ### Phase 3: LaTeX Writing
 ```
 Read and execute reference/sub-skills/manuscript-writing.md with context: "$ARGUMENTS"
 ```
 Input: `PAPER_PLAN.md` + figures.
-Output: complete LaTeX manuscript in `paper/`.
+Output: assembled LaTeX manuscript draft in `paper/`.
 
 ### Phase 4: Compilation
 ```
@@ -41,7 +43,7 @@ Output: polished manuscript (2 rounds of review + fixes).
 ### Phase 6: Final Report
 
 ```markdown
-## Paper Writing Complete
+## Manuscript Draft Assembly Complete
 
 - **PDF**: paper/main.pdf
 - **Pages**: X (target: Y for [VENUE])
@@ -76,6 +78,6 @@ Output: polished manuscript (2 rounds of review + fixes).
 
 - Each phase must complete before the next begins
 - If any phase fails, stop and report the error
-- The paper should be submission-ready after Phase 5, but ALWAYS needs author review
+- The manuscript draft should be ready for author review after Phase 5; submission readiness remains a human statistical and authorship decision
 - Proofs MUST be verified by the author — do not skip this step
 - Simulation code should be reproducible — include seeds and package versions

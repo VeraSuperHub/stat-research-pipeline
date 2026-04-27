@@ -892,11 +892,11 @@ print(f"Across factorial ANOVA, random forest, and gradient boosting, "
 
 
 # ============================================================================
-# PART 7: Manuscript Generation (08-generate-manuscript.md)
+# PART 7: Review-Ready Manuscript-Section Drafting (08-generate-manuscript.md)
 # ============================================================================
 
 print("\n" + "=" * 60)
-print("PART 7: MANUSCRIPT GENERATION")
+print("PART 7: REVIEW-READY MANUSCRIPT-SECTION DRAFTING")
 print("=" * 60)
 
 # --- methods.md ---

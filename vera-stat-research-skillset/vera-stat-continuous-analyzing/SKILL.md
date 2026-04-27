@@ -6,15 +6,15 @@ description: >-
   Adds remaining hypothesis tests (ANOVA, post-hoc, nonparametric),
   subgroup analysis with interaction tests and forest plots, full modeling
   (OLS with diagnostics, quantile regression, tree-based exploratory), and
-  model comparison. Generates manuscript-ready methods.md and results.md
-  with formatted tables, publication-quality figures, and references.bib.
+  model comparison. Generates review-ready methods.md and results.md drafts
+  with formatted tables, review-ready figures, and references.bib.
   Applies output variation and code style variation for natural, non-repetitive output. Triggered after
   vera-stat-continuous-testing completes, or direct request with a continuous/numeric outcome variable.
 user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob
 ---
 
-# Continuous Outcome — Full Analysis & Manuscript Generation
+# Continuous Outcome — Full Analysis & Review-Ready Manuscript Drafting
 
 Open-source skill. Read `reference/specs/output-variation-protocol.md`
 before every generation — apply all variation layers.

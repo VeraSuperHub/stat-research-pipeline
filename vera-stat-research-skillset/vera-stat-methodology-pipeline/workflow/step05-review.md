@@ -98,4 +98,4 @@ The auto-review-loop terminates when:
 ---
 
 ## Next Step
-→ Step 06: Paper Writing
+→ Step 06: Manuscript Draft Assembly

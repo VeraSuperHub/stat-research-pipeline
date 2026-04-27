@@ -12,6 +12,19 @@ It is built for domain experts who bring the research question, data context, st
 
 **I structure the execution layer. You own the judgment layer.**
 
+> _Across [VeraSuperHub](https://github.com/VeraSuperHub), Vera structures execution; humans own judgment._
+
+---
+
+## Who uses this
+
+Two kinds of people:
+
+- **Domain experts who need structured AI-assisted research workflows.** You bring the question, data context, and substantive judgment. The pipeline helps with the decomposable execution layer: diagnostics, candidate analyses, manuscript-section drafts, reproducible artifacts, and review checkpoints.
+- **Researchers and engineers studying skill-based pipelines.** This repo decomposes a research workflow into modular Claude skills. Fork it, study the architecture, adapt it to your own domain.
+
+---
+
 ## Skills at a glance
 
 ### Testing (diagnostics + primary tests)
@@ -61,12 +74,12 @@ Each testing skill has a paired analyzing skill that continues from where testin
 
 All analyzing skills produce unified variable importance tables (0--100 normalized scale) and apply output variation protocols for natural, non-repetitive prose.
 
-### Pipelines (end-to-end orchestration)
+### Pipelines (workflow orchestration)
 
 | Skill | Purpose |
 |---|---|
-| `vera-stat-application-pipeline` | Research question + dataset --> outcome detection --> literature review --> parallel analysis --> Markdown + LaTeX manuscript |
-| `vera-stat-methodology-pipeline` | Research direction --> idea discovery --> simulation studies --> proofs --> external review --> paper |
+| `vera-stat-application-pipeline` | Research question + dataset --> outcome detection --> literature review --> parallel analysis --> assembled Markdown + LaTeX manuscript draft |
+| `vera-stat-methodology-pipeline` | Research direction --> idea discovery --> simulation studies --> proofs --> external review --> review-ready manuscript draft |
 
 ---
 
@@ -95,7 +108,7 @@ Testing Skills            Analysis Engine                  Pipelines
 | 05 | Subgroup Analysis | Stratified analyses, interaction tests, forest plots |
 | 06 | Fit Models | Regression models + tree-based exploratory models |
 | 07 | Compare Models | Unified variable importance (0--100), cross-method synthesis |
-| 08 | Generate Manuscript | Assemble methods.md + results.md with output variation protocols |
+| 08 | Assemble Manuscript Draft | Assemble review-ready methods.md + results.md drafts with output variation protocols |
 
 ### Application pipeline stages
 
@@ -126,11 +139,11 @@ The pipeline auto-detects your outcome type and routes to the correct testing + 
 ```
 Stage 1  Intake           Research direction, computational environment, project setup
 Stage 2  Discover         Literature landscape --> idea generation --> pilot simulations
-         Gate 1           Human selects idea (or auto-proceed after 10s)
+         Gate 1           Human selects idea (or default-suggestion logged after 10s; user can override on next interaction)
 Stage 3  Implement        3 parallel tracks: Simulation Code | Proof Sketches | Real Data
 Stage 4  Experiment       Deploy simulations, Monte Carlo SEs, coverage/power studies
 Stage 5  Review           External review via Codex MCP (up to 4 rounds)
-Stage 6  Paper            LaTeX manuscript, venue-specific formatting, compile to PDF
+Stage 6  Manuscript Draft LaTeX manuscript draft, venue-specific formatting, compile to PDF
 ```
 
 ---
@@ -306,11 +319,11 @@ output/
 +-- references.bib             # BibTeX citations
 ```
 
-The application pipeline assembles these into a complete manuscript:
+The application pipeline assembles these into an assembled manuscript draft (review-ready, not a final manuscript or submission):
 
 ```
 output/
-+-- manuscript.md              # Complete Markdown manuscript
++-- manuscript.md              # Assembled Markdown manuscript draft
 +-- literature_review.md       # Full literature review
 +-- analysis_strategy.md       # Method track plan
 +-- track_outputs/             # Per-track raw outputs
@@ -404,7 +417,7 @@ vera-stat-methodology-pipeline
     +-- Stage 3: Parallel implementation (simulations | proofs | real data)
     +-- Stage 4: Full simulation studies (coverage, power, Monte Carlo SEs)
     +-- Stage 5: External review
-    +-- Stage 6: LaTeX paper (venue-specific: JASA, Biometrika, Annals of Statistics)
+    +-- Stage 6: Manuscript Draft Assembly (venue-specific LaTeX: JASA, Biometrika, Annals of Statistics)
 ```
 
 ---
@@ -437,17 +450,17 @@ Invoke any skill with `/vera-stat-research:<skill-name>`:
 /vera-stat-research:vera-stat-methodology-pipeline   Develop a novel robust estimator for mixed models
 ```
 
-Or let the application pipeline auto-detect your outcome type --- just hand it a dataset and a research question.
+Or let the application pipeline auto-detect your outcome type --- provide a dataset and research question; the workflow proposes an outcome-type route for human review.
 
 ---
 
-> **Building a research portfolio for an EB-1 or NIW petition?** I draft the manuscript. The petition itself — case evaluation, petition letter drafting, RFE response, USCIS adjudication patterns — is handled by [**vera-eb-suite**](https://github.com/VeraSuperHub/vera-eb-suite), my sister project covering 19 skills across EB-1 and NIW workflows.
+> **Building a research portfolio for an EB-1 or NIW petition?** I support the analysis workflow and manuscript-section drafting; you own the research, the claims, and the final manuscript. The petition itself — case evaluation, petition letter drafting, RFE response, USCIS adjudication patterns — is handled by [**vera-eb-suite**](https://github.com/VeraSuperHub/vera-eb-suite), my sister project covering 19 skills across EB-1 and NIW workflows.
 
 ---
 
 ## What this proves
 
-Everything here --- assumption checking, test selection, model fitting, manuscript drafting --- I can do. It's been reduced to skills and automated.
+Everything here --- assumption checking, test selection, model fitting, manuscript-section drafting --- has been decomposed into reviewable skills with explicit human checkpoints.
 
 What I cannot do:
 
@@ -463,7 +476,7 @@ I handle execution. You handle judgment.
 
 I'm the execution layer. I'm free and open-source. Fork me, use me, improve me.
 
-**But if you want the judgment layer** --- which question to ask, which method fits your data, which direction is publishable right now --- that's Veronica.
+**But if you want the judgment layer** --- which question to ask, which method fits your data, which direction is worth developing, validating, or submitting for expert review --- that's Veronica.
 
 ---
 

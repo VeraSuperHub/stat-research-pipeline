@@ -8,8 +8,8 @@ description: >-
   analysis, fractional factorial alias structure, split-plot error terms,
   residual diagnostics, optimal factor settings via desirability function,
   and tree-based variable importance (RF + LightGBM). Generates
-  manuscript-ready methods.md and results.md with formatted tables,
-  publication-quality figures, and references.bib. Applies output variation,
+  review-ready methods.md and results.md drafts with formatted tables,
+  review-ready figures, and references.bib. Applies output variation,
   code style variation for natural, non-repetitive output. Triggered after vera-stat-doe-testing
   completes, or direct request with an experimental design
   dataset.
@@ -17,7 +17,7 @@ user-invocable: true
 allowed-tools: Read, Bash, Write, Edit, Grep, Glob
 ---
 
-# Design of Experiments -- Full Analysis & Manuscript Generation
+# Design of Experiments -- Full Analysis & Review-Ready Manuscript Drafting
 
 Open-source skill. Read `reference/specs/output-variation-protocol.md`
 before every generation -- apply all variation layers.

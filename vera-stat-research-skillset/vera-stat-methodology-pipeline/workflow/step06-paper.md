@@ -1,4 +1,4 @@
-# Step 06: Paper Writing (LaTeX + PDF)
+# Step 06: Manuscript Draft Assembly (LaTeX + PDF)
 
 > **Executor**: Main Agent (invokes `reference/sub-skills/paper-writing.md`)
 > **Input**: All project artifacts + `AUTO_REVIEW.md` + `RESULTS_ANALYSIS.md`
@@ -8,7 +8,7 @@
 
 ## Execution Instructions
 
-### 6.1 Launch Paper Writing Pipeline
+### 6.1 Launch Manuscript Draft Assembly Workflow
 
 ```
 Read and execute reference/sub-skills/paper-writing.md with context: "$ARGUMENTS"
@@ -33,7 +33,7 @@ Paper type detection (from selected idea):
 
 #### Phase 2: Figure Generation (`reference/sub-skills/figure-creating.md`)
 
-Generate publication-quality figures from simulation results:
+Generate review-ready figures from simulation results:
 
 | Figure Type | Source | Format |
 |-------------|--------|--------|
@@ -113,7 +113,7 @@ After paper pipeline completes, write `RESEARCH_LOG.md`:
 | 3. Implementation | Completed | ~{X} min | Tracks: {list} |
 | 4. Experiments | Completed | ~{X} hours | B={reps}, n={sizes}, {N} methods |
 | 5. External Review | Completed | ~{X} hours | {N} rounds, final: {score}/10 |
-| 6. Paper Writing | Completed | ~{X} min | {pages} pages, {venue} format |
+| 6. Manuscript Draft Assembly | Completed | ~{X} min | {pages} pages, {venue} format |
 
 ## Key Results
 - {Finding 1}
@@ -178,13 +178,13 @@ Round 1: {score}/10 → Round 2: {score}/10 → ... → Final: {score}/10
 
 ---
 
-## Pipeline Complete
+## Workflow Complete
 
-The methodology research pipeline has produced:
-- A novel statistical method with theoretical foundations
-- Simulation evidence supporting the method
+The methodology research workflow has produced:
+- A candidate statistical method with theoretical sketch
+- Simulation evidence consistent with the method
 - Real data application (if applicable)
-- A publication-ready LaTeX manuscript
+- A review-ready LaTeX manuscript draft
 - Complete reproducibility bundle
 
-**Critical reminder**: All proofs MUST be verified by the author. The pipeline produces a DRAFT.
+**Critical reminder**: All proofs, claim validity, and submission decisions MUST be verified by the human author. Assumptions, substantive meaning, and publication claims require human statistical review. The workflow produces a DRAFT.

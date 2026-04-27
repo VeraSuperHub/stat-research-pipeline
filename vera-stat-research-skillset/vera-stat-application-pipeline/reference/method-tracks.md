@@ -149,7 +149,7 @@ For CFA, tracks are sequential and stay within the measurement-model family.
 | Reliability & Validity | T2_validity | Reliability, convergent/discriminant validity, modification-index review | 04 | T1_primary |
 | Invariance | T3_invariance | Measurement invariance (configural, metric, scalar) | 05 | T1_primary |
 | Alternative CFA Models | T4_models | Alternative CFA specifications, residual/cross-loading review under theory constraints | 06 | T2_validity |
-| Cross-Model Synthesis | T5_compare | Model comparison, fit synthesis, manuscript-ready interpretation | 07 | T4_models |
+| Cross-Model Synthesis | T5_compare | Model comparison, fit synthesis, review-ready interpretation | 07 | T4_models |
 
 ## SEM-Full
 
@@ -161,7 +161,7 @@ For full SEM, tracks are sequential and stay within the structural-model family.
 | Indirect Effects & Residual Review | T2_indirect | Indirect effects, residual diagnostics, local misfit checks | 04 | T1_primary |
 | Multi-Group SEM | T3_multigroup | Group comparisons, moderated structure, subgroup SEM | 05 | T1_primary |
 | Alternative Structural Models | T4_models | Alternative path structures, mediation/moderation variants | 06 | T2_indirect |
-| Cross-Model Synthesis | T5_compare | Nested comparison, fit synthesis, manuscript-ready interpretation | 07 | T4_models |
+| Cross-Model Synthesis | T5_compare | Nested comparison, fit synthesis, review-ready interpretation | 07 | T4_models |
 
 ## SEM-Longitudinal Change
 
@@ -173,7 +173,7 @@ For longitudinal SEM, tracks are sequential and stay within the growth/change fa
 | Change Diagnostics | T2_change | Nonlinear trajectory checks, latent-basis/change-score diagnostics | 04 | T1_primary |
 | Multi-Group Growth / Change | T3_multigroup | Group comparisons for change trajectories | 05 | T1_primary |
 | Alternative Growth Models | T4_models | Alternative growth or change specifications, parallel-process variants when justified | 06 | T2_change |
-| Cross-Trajectory Synthesis | T5_compare | Model comparison and manuscript-ready growth/change interpretation | 07 | T4_models |
+| Cross-Trajectory Synthesis | T5_compare | Model comparison and review-ready growth/change interpretation | 07 | T4_models |
 
 ---
 

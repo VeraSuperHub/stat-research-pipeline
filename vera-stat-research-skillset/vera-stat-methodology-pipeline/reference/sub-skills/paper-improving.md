@@ -2,7 +2,7 @@
 
 # Auto Paper Improvement Loop: Statistics Manuscript Polish
 
-Autonomously improve a statistics paper through review-fix-recompile cycles.
+Iteratively draft revisions to a statistics paper through structured review-fix-recompile cycles, surfacing reviewer feedback to the human author for each round. The loop produces draft revisions; final claim acceptance and submission decisions remain human statistical judgments.
 
 ## Context: $ARGUMENTS
 

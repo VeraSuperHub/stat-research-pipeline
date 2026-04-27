@@ -864,10 +864,10 @@ print(f"  grounded forecast, while ML methods complement by confirming the nonli
 print(f"  relevance of the same seasonal structure.")
 
 ###############################################################################
-# PART 7: Manuscript Generation (Workflow 08)
+# PART 7: Review-Ready Manuscript-Section Drafting (Workflow 08)
 ###############################################################################
 print("\n" + "=" * 70)
-print("PART 7: MANUSCRIPT GENERATION")
+print("PART 7: REVIEW-READY MANUSCRIPT-SECTION DRAFTING")
 print("=" * 70)
 
 # ── methods.md ───────────────────────────────────────────────────────────────

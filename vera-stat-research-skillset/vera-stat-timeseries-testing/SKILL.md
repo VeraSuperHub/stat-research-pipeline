@@ -6,7 +6,7 @@ description: >-
   (ADF + KPSS), and one fully interpreted ARIMA model with forecast and
   prediction intervals. Ends with a recommendation block listing additional
   analyses available. Outputs .R and .py scripts with 2
-  publication-quality plots. Triggered when user has temporal/time series
+  review-ready plots. Triggered when user has temporal/time series
   data and says "time series," "temporal data," "forecast," "ARIMA,"
   "seasonal," "trend," "autocorrelation," "monthly data," "daily data,"
   "quarterly," "stationarity," or names a time-indexed variable like

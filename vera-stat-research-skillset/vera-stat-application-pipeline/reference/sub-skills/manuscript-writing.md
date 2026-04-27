@@ -1,8 +1,10 @@
 <!-- Absorbed from skills/paper-write/SKILL.md -->
 
-# Paper Write: Statistics Manuscript in LaTeX
+# Manuscript Draft Assembly: Statistics Manuscript in LaTeX
 
-Generate a complete statistics paper from: **$ARGUMENTS**
+Assemble a review-ready statistics manuscript draft from approved inputs: **$ARGUMENTS**
+
+Outputs are draft artifacts. Final claim acceptance, submission readiness, and authorship decisions remain human statistical judgments.
 
 ## Constants
 

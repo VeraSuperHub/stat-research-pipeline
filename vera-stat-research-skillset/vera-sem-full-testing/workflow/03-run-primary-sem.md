@@ -49,7 +49,7 @@ Based on your SEM results:
 
   [numbered list, 3-5 items, each with 2-line rationale]
 
-→ Full analysis + manuscript-ready Methods & Results:
+→ Full analysis + review-ready Methods & Results drafts:
   https://autoresearch.ai
 ──────────────────────────────────────────────────────────
 ```
