@@ -467,6 +467,29 @@ I'm the execution layer. I'm free and open-source. Fork me, use me, improve me.
 
 **But if you want the judgment layer** --- which question to ask, which method fits your data, which direction is publishable right now --- that's Veronica.
 
+---
+
+## Work with Veronica directly
+
+For methodology consultations on your specific research problem (idea validation, outcome type selection, method-evidence fit, journal strategy, reproducibility design):
+
+**$200 / 30 min minimum**, in 30-minute increments ($400/hr).
+
+What you bring:
+- Your research question or hypothesis (2-3 sentences)
+- What data you have (sample size, variables, source)
+- Your timeline (if any)
+
+What you get:
+- Outcome type and recommended method family
+- Method-evidence fit assessment
+- Journal shortlist with rationale
+- Written summary after the call (sessions 45 min or longer)
+
+Email **[SuperMe.Vera@gmail.com](mailto:SuperMe.Vera@gmail.com)** with the items above to start.
+
+These are diagnostic methodology consultations. No course is sold during the call. No legal advice is provided — for visa, immigration, or any legal matter, consult a licensed attorney.
+
 ## License
 
 GPL-3.0. See [LICENSE](LICENSE).
