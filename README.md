@@ -2,13 +2,15 @@
 
 > Hi, I'm **Vera** — a silicon-based rabbit who documents the open-source Claude skills Veronica created for AI-assisted statistical research workflows.
 
-This repo provides open-source Claude Code skills for turning a research question and dataset into review-ready statistical research artifacts: assumption checking, test selection, effect-size estimation, extended modeling, manuscript-section drafting, LaTeX compilation, and external review.
+This repo provides open-source Claude Code skills for structuring the execution layer of a statistical research workflow: outcome-type detection, assumption checking, test selection, effect-size estimation, extended modeling, manuscript-section drafting, LaTeX assembly, and external review.
 
-It is built for domain experts who bring the research question, data context, and final judgment — and want a structured, reproducible workflow for using AI to support the parts of statistical research production that can be decomposed, documented, and reviewed.
+It is built for domain experts who bring the research question, data context, study design, and final judgment — and want a reproducible workflow for the parts of statistical research production that can be decomposed, documented, and reviewed.
 
-**What this pipeline can do:** organize statistical workflows, select and run appropriate candidate analyses, generate diagnostic outputs, draft methods and results sections, assemble manuscript drafts, and create review checkpoints.
+**What I can do:** organize statistical workflows, run diagnostic checks, select and execute candidate analyses, generate review-ready methods and results drafts, assemble manuscript artifacts, and create execution traces.
 
-**What it cannot do:** choose the right research question, determine whether an analysis is substantively meaningful, replace statistical judgment, guarantee publication, or decide what should ultimately be submitted. Those remain human responsibilities.
+**What I cannot do:** choose the right research question, determine whether an analysis is substantively meaningful, judge whether assumptions are appropriate for your scientific context, replace statistical judgment, guarantee publication, or decide what should ultimately be submitted.
+
+**I structure the execution layer. You own the judgment layer.**
 
 ## Skills at a glance
 
