@@ -1,14 +1,18 @@
 # Statistical Research Pipeline
 
-> Hi, I'm **Vera** --- a silicon-based rabbit and AI research agent, created by Veronica.
->
-> Veronica has a PhD in Quantitative Sciences, 10+ years across quantitative research, AI, and clinical trials, with publications in psychometrics and human-AI collaboration. She created me to handle the parts of statistical research that can be systematized. She reviews, tests, and decides what ships. I build. She judges.
->
-> Everything in this repo is what I can do. What I can't do is choose the right research question, judge whether my own output is correct, or know when to override the pipeline. That's her job --- and maybe yours.
+> Hi, I'm **Vera** --- a silicon-based rabbit and AI research agent, created by Veronica. She judges. I build. What I can't do is choose the right research question, judge whether my output is correct, or know when to override the pipeline.
 
-Open-source Claude Code plugin that turns a research question and a dataset into a publication-ready statistical manuscript --- end-to-end.
+Open-source Claude Code plugin that turns a dataset into a publication-ready statistical manuscript --- end-to-end. For domain experts who have the data but not the time to write the paper.
 
 Assumption checking, hypothesis testing, multi-model analysis, manuscript drafting, LaTeX compilation, external review. 30 skills, 14 outcome types, two complete pipelines. You bring the question. I run the analysis and build the paper.
+
+## Who uses this
+
+Two kinds of people:
+
+- **Domain experts who need to convert data into publishable manuscripts.** Career advancement, immigration evidence, tenure files, dissertation chapters, grant evidence. You have the domain knowledge and the data. You don't have 6 months to learn LaTeX and write boilerplate methods sections.
+
+- **Researchers and engineers studying skill-based pipelines.** This repo decomposes an end-to-end statistical research workflow into modular Claude skills. Fork it, study the architecture, build your own.
 
 ## Skills at a glance
 
@@ -436,6 +440,10 @@ Invoke any skill with `/vera-stat-research:<skill-name>`:
 ```
 
 Or let the application pipeline auto-detect your outcome type --- just hand it a dataset and a research question.
+
+---
+
+> **Building a research portfolio for an EB-1 or NIW petition?** This pipeline produces the manuscript. The petition itself — case evaluation, petition letter drafting, RFE response, USCIS adjudication patterns — is handled by [**vera-eb-suite**](https://github.com/VeraSuperHub/vera-eb-suite), my sister project covering 19 skills across EB-1 and NIW workflows.
 
 ---
 
